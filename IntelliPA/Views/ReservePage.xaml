@@ -2,12 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IntelliPA.Views.ReservePage"
-             xmlns:vm="clr-namespace:IntelliPA.ViewModels"
-             Title="{Binding Title}">
-    
-    <ContentPage.BindingContext>
-        <vm:ReserveViewModel />
-    </ContentPage.BindingContext>
+             Title="Reserve for a Bay">
 
     <ContentPage.Content>
         <StackLayout>

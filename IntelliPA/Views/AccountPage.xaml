@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="IntelliPA.Views.AccountPage"
-             Title="Intelligent Parking Assistant"
+             Title="Check my Account"
              x:Name="BrowseItemsPage">
     <!--
       x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
