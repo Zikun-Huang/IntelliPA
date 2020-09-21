@@ -27,6 +27,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\ReservePage.xaml.cs">
+      <DependentUpon>ReservePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AccountPage.xaml.cs">
+      <DependentUpon>AccountPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\AccountEditPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

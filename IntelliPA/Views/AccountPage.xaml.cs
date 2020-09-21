@@ -13,11 +13,11 @@ using IntelliPA.ViewModels;
 
 namespace IntelliPA.Views
 {
-    public partial class ItemsPage : ContentPage
+    public partial class AccountPage : ContentPage
     {
         //ItemsViewModel _viewModel;
 
-        public ItemsPage()
+        public AccountPage()
         {
             InitializeComponent();
 

@@ -5,9 +5,9 @@ using Xamarin.Forms.Xaml;
 
 namespace IntelliPA.Views
 {
-    public partial class AboutPage : ContentPage
+    public partial class ReservePage : ContentPage
     {
-        public AboutPage()
+        public ReservePage()
         {
             InitializeComponent();
         }
