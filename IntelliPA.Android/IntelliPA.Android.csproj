@@ -128,16 +128,13 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\reserve_tab.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\reserve_tab.png" />
+    <AndroidResource Include="Resources\drawable\account_tab.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\park_tab.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\account_tab.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\logout_tab.png" />
+    <AndroidResource Include="Resources\drawable\reserve_tab.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
