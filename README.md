@@ -1,4 +1,4 @@
-# IntelliPA
+# IntelliPA (Not Finished, Continue Working on)
 This is a Repo for FY2020 Hackathon project, Dev team, CSS, Microsoft, and it's mainly for the mobile app version.
 
 You may be able to access this site for more information:
