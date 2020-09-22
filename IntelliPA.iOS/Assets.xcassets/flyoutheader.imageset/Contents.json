@@ -1,0 +1,27 @@
+{
+  "images": [
+    {
+      "appearances": [],
+      "scale": "1x",
+      "idiom": "universal",
+      "filename": "flyoutheader@1x.png"
+    },
+    {
+      "appearances": [],
+      "scale": "2x",
+      "idiom": "universal",
+      "filename": "flyoutheader@2x.png"
+    },
+    {
+      "appearances": [],
+      "scale": "3x",
+      "idiom": "universal",
+      "filename": "flyoutheader@3x.png"
+    }
+  ],
+  "properties": {},
+  "info": {
+    "version": 1,
+    "author": ""
+  }
+}

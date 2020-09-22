@@ -2,6 +2,7 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms" 
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:IntelliPA.Views"
+       xmlns:controls="clr-namespace:IntelliPA.Controls"
        Title="IntelliPA"
        x:Class="IntelliPA.AppShell">
 
@@ -58,7 +59,11 @@
             <!--
             Custom Style you can apply to any Flyout Item
             -->
+            <Style Class="MenuItemLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="Black"></Setter>
+            </Style>
             <Style Class="MenuItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
@@ -67,12 +72,39 @@
                                     <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="Black"/>
                                 </VisualState.Setters>
                             </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
                         </VisualStateGroup>
                     </VisualStateGroupList>
                 </Setter>
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding Icon}"
+                       Margin="5"
+                       HeightRequest="30" />
+                <Label Grid.Column="1"
+                       Text="{Binding Text}"
+                       TextColor="Black"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+
+    <Shell.FlyoutHeader>
+        <controls:FlyoutHeader />
+    </Shell.FlyoutHeader>
 
     <!-- 
         When the Flyout is visible this defines the content to display in the flyout.
