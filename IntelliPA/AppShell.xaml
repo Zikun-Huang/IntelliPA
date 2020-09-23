@@ -59,17 +59,18 @@
             <!--
             Custom Style you can apply to any Flyout Item
             -->
-            <Style Class="MenuItemLabelStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="Black"></Setter>
+            <!--<Style Class="MenuItemLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
             </Style>
             <Style Class="MenuItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
-                <Setter Property="BackgroundColor" Value="White"/>
+                <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
                             <VisualState x:Name="Normal">
                                 <VisualState.Setters>
-                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="Black"/>
+                                    <Setter Property="BackgroundColor" Value="White"/>
+                                    <Setter TargetName="MenuItemLabel" Property="Label.TextColor" Value="Black"/>
                                 </VisualState.Setters>
                             </VisualState>
                             <VisualState x:Name="Selected">
@@ -80,7 +81,7 @@
                         </VisualStateGroup>
                     </VisualStateGroupList>
                 </Setter>
-            </Style>
+            </Style>-->
         </ResourceDictionary>
     </Shell.Resources>
 

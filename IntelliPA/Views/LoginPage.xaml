@@ -7,7 +7,11 @@
              x:Class="IntelliPA.Views.LoginPage"
              Shell.NavBarIsVisible="False">
     <ContentPage.Content>
-        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+        <StackLayout Padding="20" VerticalOptions="Center">
+            <Label Text="User Name"/>
+            <Entry Placeholder="Your alias, email address or mobile number"/>
+            <Label Text="Credentials"/>
+            <Entry Placeholder="Your passwords or passcodes"/>
             <Button VerticalOptions="Center" Text="Login" Command="{Binding LoginCommand}"/>
         </StackLayout>
     </ContentPage.Content>
