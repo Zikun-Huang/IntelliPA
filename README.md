@@ -1,5 +1,5 @@
 # IntelliPA (Not Finished, Continue Working on)
-**master**
+**master**[![Build status](https://build.appcenter.ms/v0.1/apps/caaa7220-5ff2-45f9-a59b-dadcd86006c5/branches/master/badge)](https://appcenter.ms)
 
 **dev**[![Build status](https://build.appcenter.ms/v0.1/apps/caaa7220-5ff2-45f9-a59b-dadcd86006c5/branches/dev/badge)](https://appcenter.ms)
 
