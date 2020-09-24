@@ -148,16 +148,16 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\logout_tab.imageset\Contents.json">
+    <ImageAsset Include="Assets.xcassets\flyoutheader.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\logout_tab.imageset\logout_tab@1x.png">
+    <ImageAsset Include="Assets.xcassets\flyoutheader.imageset\flyoutheader@1x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\logout_tab.imageset\logout_tab@2x.png">
+    <ImageAsset Include="Assets.xcassets\flyoutheader.imageset\flyoutheader@2x.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\logout_tab.imageset\logout_tab@3x.png">
+    <ImageAsset Include="Assets.xcassets\flyoutheader.imageset\flyoutheader@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\park_tab.imageset\Contents.json">

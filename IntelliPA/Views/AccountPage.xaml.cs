@@ -20,14 +20,11 @@ namespace IntelliPA.Views
         public AccountPage()
         {
             InitializeComponent();
-
-            //BindingContext = _viewModel = new ItemsViewModel();
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            //_viewModel.OnAppearing();
         }
 
         async void OnEditButtonClicked(object sender, EventArgs args)

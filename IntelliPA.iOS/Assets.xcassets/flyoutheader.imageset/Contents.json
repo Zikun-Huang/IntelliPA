@@ -4,19 +4,19 @@
       "appearances": [],
       "scale": "1x",
       "idiom": "universal",
-      "filename": "logout_tab@1x.png"
+      "filename": "flyoutheader@1x.png"
     },
     {
       "appearances": [],
       "scale": "2x",
       "idiom": "universal",
-      "filename": "logout_tab@2x.png"
+      "filename": "flyoutheader@2x.png"
     },
     {
       "appearances": [],
       "scale": "3x",
       "idiom": "universal",
-      "filename": "logout_tab@3x.png"
+      "filename": "flyoutheader@3x.png"
     }
   ],
   "properties": {},
