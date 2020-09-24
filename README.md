@@ -1,5 +1,6 @@
 # IntelliPA (Not Finished, Continue Working on)
-[![Build status](https://build.appcenter.ms/v0.1/apps/caaa7220-5ff2-45f9-a59b-dadcd86006c5/branches/master/badge)](https://appcenter.ms)
+Android [![Build status](https://build.appcenter.ms/v0.1/apps/caaa7220-5ff2-45f9-a59b-dadcd86006c5/branches/master/badge)](https://appcenter.ms),
+iOS[![Build status](https://build.appcenter.ms/v0.1/apps/51535e36-1eda-4f07-8eb5-bd6564a4f80b/branches/master/badge)](https://appcenter.ms)
 
 This is a Repo for FY2020 Hackathon project, Dev team, CSS, Microsoft, and it's mainly for the mobile app version.
 
