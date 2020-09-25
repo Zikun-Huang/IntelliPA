@@ -1,14 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
              x:Class="IntelliPA.Views.ReservePage"
              Title="Reserve for a Bay">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Reservation History"
+                     Order="Secondary"
+                     Clicked="OnReservationListButtonClicked"/>
+    </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="This is a TBD ReservePage."
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.25*"/>
+                <RowDefinition Height="0.75*"/>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="0"
+                   CornerRadius="8"
+                   Padding="0"
+                   Margin="5"
+                   HasShadow="True">
+                <Image Source="reserve_bg" 
+                       Aspect="AspectFill"/>
+            </Frame>
+            <StackLayout Grid.Row="1" Padding="10">
+                <Label Text="Reserve before 7:30 AM everyday!" FontSize="Large" TextColor="DarkBlue"/>
+                <Label Text="Estimated Arrival/Check-In" TextColor="Black"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <DatePicker x:Name="CheckInDate" 
+                                Grid.Column="0"
+                                Margin="0,0,0,10"
+                                MinimumDate="{x:Static sys:DateTime.Today}"/>
+                    <TimePicker x:Name="CheckInTime" 
+                                Margin="0,0,0,10"
+                                Grid.Column="1"/>
+                </Grid>
+                <Label Text="Estimated Leave/Check-Out" TextColor="Black"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                    </Grid.ColumnDefinitions>
+                    <DatePicker x:Name="CheckOutDate" 
+                                Grid.Column="0"
+                                Margin="0,0,0,10"
+                                MinimumDate="{x:Static sys:DateTime.Today}"/>
+                    <TimePicker x:Name="CheckOutTime" 
+                                Margin="0,0,0,10"
+                                Grid.Column="1"/>
+                </Grid>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Preferred Bay No. " TextColor="Black"/>
+                            <Span Text="We can't guarantee but will try our best to arrange the bay according to your preferrence."
+                                  FontSize="Small"
+                                  TextColor="Orange"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Entry Placeholder="Type the Bay No. here."/>
+                <Button Text="Confirm Reservation"
+                        Margin="30,10,30,0"
+                        BackgroundColor="CornflowerBlue"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        Clicked="OnReserveButtonClicked"/>
+            </StackLayout>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

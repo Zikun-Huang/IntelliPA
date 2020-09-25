@@ -59,11 +59,8 @@
             <!--
             Custom Style you can apply to any Flyout Item
             -->
-            <!--<Style Class="MenuItemLabelStyle" TargetType="Label">
-                <Setter Property="TextColor" Value="White"></Setter>
-            </Style>
             <Style Class="MenuItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
-                <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                <Setter Property="BackgroundColor" Value="White"/>
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
@@ -81,7 +78,7 @@
                         </VisualStateGroup>
                     </VisualStateGroupList>
                 </Setter>
-            </Style>-->
+            </Style>
         </ResourceDictionary>
     </Shell.Resources>
 
@@ -93,10 +90,12 @@
                     <ColumnDefinition Width="0.8*" />
                 </Grid.ColumnDefinitions>
                 <Image Source="{Binding Icon}"
-                       Margin="5"
+                       Margin="0,10,10,10"
                        HeightRequest="30" />
                 <Label Grid.Column="1"
+                       Margin="10,0,0,0"
                        Text="{Binding Text}"
+                       FontAttributes="Bold"
                        TextColor="Black"
                        VerticalTextAlignment="Center" />
             </Grid>
@@ -119,8 +118,8 @@
     </FlyoutItem>
 
     <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
-    <MenuItem Text="Logout" StyleClass="MenuItemLayoutStyle" Clicked="OnLogoutButtonClicked"/>
-    <MenuItem Text="Help" StyleClass="MenuItemLayoutStyle" Clicked="OnHelpButtonClicked"/>
+    <MenuItem Text="Logout" Icon="icon_logout"  StyleClass="MenuItemLayoutStyle" Clicked="OnLogoutButtonClicked"/>
+    <MenuItem Text="Help" Icon="icon_help"  StyleClass="MenuItemLayoutStyle" Clicked="OnHelpButtonClicked"/>
 
     <!--
         This defines content that won't show up in a flyout menu. When this content is active the flyout menu won't be available.
@@ -129,7 +128,7 @@
         await Shell.Current.GoToAsync("//LoginPage");
     -->
     <ShellContent Route="LoginPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate local:LoginPage}" />
-    <ShellContent Route="HelpPage" Shell.FlyoutBehavior="Flyout" ContentTemplate="{DataTemplate local:HelpPage}" />
+    <ShellContent Route="HelpPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate local:HelpPage}" />
 
     <!-- Optional Templates 
     // These may be provided inline as below or as separate classes.

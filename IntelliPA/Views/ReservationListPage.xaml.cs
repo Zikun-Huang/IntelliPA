@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace IntelliPA.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HelpPage : ContentPage
+    public partial class ReservationListPage : ContentPage
     {
-        public HelpPage()
+        public ReservationListPage()
         {
             InitializeComponent();
-        }
-
-        private async void OnExitHelpButtonClicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync($"//{nameof(ParkPage)}");
         }
     }
 }

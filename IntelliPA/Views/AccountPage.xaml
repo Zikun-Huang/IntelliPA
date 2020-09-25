@@ -22,30 +22,30 @@
                    HasShadow="False"
                    Padding="20">
             <StackLayout>
-                <Label Text="User Name"/>
-                <Entry Text="IntelliPA" IsReadOnly="True" MaxLength="20"/>
-                <Label Text="Alias"/>
-                <Entry Text="AFakeAlias" IsReadOnly="True" MaxLength="20"/>
-                <Label Text="Contact Number" />
-                <Entry Text="021-12345678" IsReadOnly="True" MaxLength="20"/>
-                <Label Text="Car Registration Number" />
-                <Entry Text="沪A·CS501" IsReadOnly="True" MaxLength="20"/>
+                <Label Text="User Name" TextColor="Black"/>
+                <Entry Text="IntelliPA" IsReadOnly="True" MaxLength="20" TextColor="DimGray"/>
+                <Label Text="Alias" TextColor="Black"/>
+                <Entry Text="AFakeAlias" IsReadOnly="True" MaxLength="20" TextColor="DimGray"/>
+                <Label Text="Contact Number" TextColor="Black"/>
+                <Entry Text="021-12345678" IsReadOnly="True" MaxLength="20" TextColor="DimGray"/>
+                <Label Text="Car Registration Number" TextColor="Black"/>
+                <Entry Text="沪A·CS501" IsReadOnly="True" MaxLength="20" TextColor="DimGray"/>
             </StackLayout>
         </Frame>
         <Button Grid.Row="1"
                 Grid.Column="0"
                 Text="Edit Details"
                 Margin="30,30,30,30"
-                BackgroundColor="Transparent"
-                TextColor="CornflowerBlue"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
                 FontAttributes="Bold"
                 Clicked="OnEditButtonClicked"/>
         <Button Grid.Row="1"
                 Grid.Column="1"
                 Text="Logout"
                 Margin="30,30,30,30"
-                BackgroundColor="Transparent"
-                TextColor="CornflowerBlue"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
                 FontAttributes="Bold"
                 Clicked="OnLogoutButtonClicked"/>
     </Grid>
