@@ -9,6 +9,7 @@
         <Label Text="IntelliPA"
                TextColor="White"
                FontAttributes="Bold"
+               FontSize="Large"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
     </Grid>

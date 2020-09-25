@@ -16,5 +16,10 @@ namespace IntelliPA.Views
         {
             InitializeComponent();
         }
+
+        private async void OnExitHelpButtonClicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync($"//{nameof(ParkPage)}");
+        }
     }
 }
