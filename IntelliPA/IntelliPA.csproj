@@ -14,7 +14,6 @@
   <ItemGroup>
     <Compile Remove="ViewModels\ItemDetailViewModel.cs" />
     <Compile Remove="ViewModels\ItemsViewModel.cs" />
-    <Compile Remove="ViewModels\ReserveViewModel.cs" />
     <Compile Remove="Views\ItemDetailPage.xaml.cs" />
   </ItemGroup>
 
@@ -46,6 +45,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\ParkPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\ReservationListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

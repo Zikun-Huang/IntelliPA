@@ -14,6 +14,7 @@ namespace IntelliPA
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute(nameof(ReservationListPage), typeof(ReservationListPage));
             Routing.RegisterRoute(nameof(AccountEditPage), typeof(AccountEditPage));
         }
 
