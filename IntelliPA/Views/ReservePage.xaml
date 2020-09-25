@@ -18,10 +18,9 @@
             </Grid.RowDefinitions>
             <Frame Grid.Row="0"
                    CornerRadius="8"
-                   Padding="-5"
+                   Padding="0"
                    Margin="5"
-                   HasShadow="True"
-                   BorderColor="White">
+                   HasShadow="True">
                 <Image Source="reserve_bg" 
                        Aspect="AspectFill"/>
             </Frame>
