@@ -184,6 +184,18 @@
     <ImageAsset Include="Assets.xcassets\icon_logout.imageset\icon_logout@3x.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\park_button.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\park_button.imageset\park_button@1x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\park_button.imageset\park_button@2x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\park_button.imageset\park_button@3x.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\reserve_bg.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>

@@ -16,6 +16,7 @@ namespace IntelliPA
             InitializeComponent();
             Routing.RegisterRoute(nameof(ReservationListPage), typeof(ReservationListPage));
             Routing.RegisterRoute(nameof(AccountEditPage), typeof(AccountEditPage));
+            Routing.RegisterRoute(nameof(CarParkMapPage), typeof(CarParkMapPage));
         }
 
         private async void OnLogoutButtonClicked(object sender, EventArgs e)
