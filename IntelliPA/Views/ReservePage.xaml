@@ -5,7 +5,7 @@
              x:Class="IntelliPA.Views.ReservePage"
              Title="Reserve for a Bay">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Reservation History"
+        <ToolbarItem Text="History"
                      Order="Secondary"
                      Clicked="OnReservationListButtonClicked"/>
     </ContentPage.ToolbarItems>
