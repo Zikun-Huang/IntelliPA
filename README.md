@@ -22,9 +22,9 @@ As an employee of a company whose site is far away from my home, I need to drive
 **Parking Page**
 |  Android  | iOS     |
 | :-----------: | :----------: |
-|  ![](https://github.com/Zikun-Huang/IntelliPA/blob/dev/ScreenShots/parkSS_Android_demo.png) | ![](https://github.com/Zikun-Huang/IntelliPA/blob/dev/ScreenShots/parkSS_iOS_demo.png) |
+|  ![](https://github.com/Zikun-Huang/IntelliPA/blob/master/ScreenShots/parkSS_Android_demo.png) | ![](https://github.com/Zikun-Huang/IntelliPA/blob/master/ScreenShots/parkSS_iOS_demo.png) |
 
 **Reservation Page**
 |  Android  | iOS   |
 | :-----------: | :----------: |
-|  ![](https://github.com/Zikun-Huang/IntelliPA/blob/dev/ScreenShots/reservationSS_Android_demo.png) | ![](https://github.com/Zikun-Huang/IntelliPA/blob/dev/ScreenShots/reservationSS_iOS_demo.png) |
+|  ![](https://github.com/Zikun-Huang/IntelliPA/blob/master/ScreenShots/reservationSS_Android_demo.png) | ![](https://github.com/Zikun-Huang/IntelliPA/blob/master/ScreenShots/reservationSS_iOS_demo.png) |
