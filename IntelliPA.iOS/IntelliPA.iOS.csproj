@@ -65,6 +65,9 @@
     <MtouchLink>SdkOnly</MtouchLink>
     <CodesignProvision>devca wildcard dev only Development</CodesignProvision>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'Default' ">
+    <AppExtensionDebugBundleId />
+  </PropertyGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
